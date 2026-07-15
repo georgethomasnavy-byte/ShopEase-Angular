@@ -1,0 +1,58 @@
+/* ---------- Product Image ---------- */
+
+.product-image {
+    width: 100%;
+    max-width: 420px;
+    height: 420px;
+    object-fit: contain;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ---------- Product Details ---------- */
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text-success {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-muted {
+    font-size: 1rem;
+}
+
+.badge {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+}
+
+.btn {
+    min-width: 180px;
+    border-radius: 8px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 992px) {
+
+    .product-image {
+        max-width: 320px;
+        height: 320px;
+        margin-bottom: 30px;
+    }
+
+    .col-lg-7 {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}

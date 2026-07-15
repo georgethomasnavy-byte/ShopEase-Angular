@@ -1,0 +1,77 @@
+/* ---------- Page Title ---------- */
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* ---------- Cart Card ---------- */
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Product Image ---------- */
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+/* ---------- Quantity Buttons ---------- */
+
+.btn-outline-secondary {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* ---------- Total Section ---------- */
+
+.text-end {
+    border-top: 2px solid #e9ecef;
+    padding-top: 20px;
+}
+
+.text-success {
+    font-weight: bold;
+}
+
+/* ---------- Empty Cart ---------- */
+
+.text-center h4 {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+
+    .card .row > div {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text-end {
+        text-align: center !important;
+    }
+
+    .btn-success {
+        width: 100%;
+    }
+}
